@@ -10,7 +10,7 @@
 #include "helpers.h"
 #include "html-content.h"
 #include "webserver.h"
-#include "BH1750.h" //unfortunate sensor class name clash
+#include <BH1750.h> //unfortunate sensor class name clash
 
 namespace BH17 {
     extern const char KEY[] PROGMEM;
